@@ -1,0 +1,72 @@
+#rgb_title {
+	font-family: 'Lato';
+	font-size: 35px;
+	color: #F2F7FA;
+	background-color: #0077C4;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+}
+
+h1, h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#menu_container {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 0px;
+}
+#modes {
+	width: 38%;
+	margin-right: 31%;
+	margin-left: 31%;
+}
+
+#reset_game {
+	float: left;
+}
+
+#hard_mode, #easy_mode, #reset_game{
+	background-color: white;
+	color: #0077C4;
+	border: none;
+	display: inline-block;
+	padding: 5px;
+	font-size: 20px;
+	font-family: 'Lato';
+}
+
+#hard_mode, #easy_mode {
+	float: right;
+}
+
+#color_container {
+	background-color: #2D3032;
+}
+
+#table {
+	width: 40%;
+	height: 100%;
+	margin-right: 30%;
+	margin-left: 30%;
+	border-spacing: 10px;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth{
+	width: 30%;
+	height: 30%;
+	border-radius: 10px;
+	transition: background 0.7s;
+}
+
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+#second_row{
+	visibility: hidden;
+}
+

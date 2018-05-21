@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="game_style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="game_js.js"></script>
+</head>
+<body>
+	<header>
+		<div id="rgb_title">
+			<h2>THE GREAT</h2>
+			<h1 id="title"> RGB(254, 182, 31)?</h1>
+			<h2>GUESSING GAME</h2>
+		</div>
+	</header>
+	<div id="menu_container">
+		<div id="modes">
+		<button id="reset_game" onclick="resetGame()">New Game</button>
+		<button id="hard_mode" onclick="hardMode()">Hard</button>
+		<button id="easy_mode" onclick="easyMode()">Easy</button>
+		</div>
+	</div>
+	<div id="color_container">
+	<table id="table">
+		<tbody>
+			<tr id="first_row">
+				<td onclick="checkColor(event)" id="first">
+				</td>
+
+				<td onclick="checkColor(event)" id="second">
+				</td>
+
+				<td onclick="checkColor(event)" id="third">
+				</td>
+			
+			</tr>
+
+			<tr id="second_row">
+				<td onclick="checkColor(event)" id="fourth">
+				</td>
+
+				<td onclick="checkColor(event)" id="fifth">
+				</td>
+
+				<td onclick="checkColor(event)" id="sixth">
+				</td>
+			</tr>			
+		</tbody>
+	</table>
+	</div>
+</body>
+</html>
